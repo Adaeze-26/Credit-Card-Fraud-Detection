@@ -1,4 +1,4 @@
-# **Credt-Card-Fraud-Detection**
+# **Credit-Card-Fraud-Detection**
 ## **Executive Summary**
 This report presents an analysis of credit card transaction data to identify patterns of fraudulent activity. The dataset contains anonymized features representing transaction details, with each record labeled as fraudulent (Class = 1) or non-fraudulent (Class = 0). The goal is to derive actionable insights that can enhance fraud detection systems and inform risk management strategies.
 ## **Objectives**
