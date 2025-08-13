@@ -18,7 +18,6 @@ The dataset was obtained from Kaggle’s Credit Card Fraud Detection Dataset, or
 3.	Total Fraud Amount: €60,787.
 4.	Fraudulent transactions tend to have significantly higher average amounts than non-fraudulent ones in certain cases.
 5.	Class imbalance is extreme — fraud cases form less than 0.2% of all transactions, requiring specialized detection approaches.
-6.	PowerBI file: https://drive.google.com/file/d/1Lv0TbVmOKb_5zif5FWjSKUz89nURqXi5/view?usp=drive_link
 ## **Recommendation**
 1.  Implement real-time transaction monitoring to flag suspicious activities.
 2.  Use machine learning models to predict and detect fraudulent transactions.
