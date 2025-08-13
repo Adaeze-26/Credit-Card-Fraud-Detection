@@ -6,12 +6,13 @@ This report presents an analysis of credit card transaction data to identify pat
 2.	Identify trends in fraudulent transactions over time.
 3.	Compare the transaction amounts of fraud vs. non-fraud activities.
 4.	Support data-driven recommendations for fraud prevention.
+5.	Provide visual KPIs for quick monitoring.
 ## **Data Source**
 The dataset was obtained from Kaggle’s Credit Card Fraud Detection Dataset, originally sourced from European cardholders' transactions in September 2013. (https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-## **Methodology**
-1.	Data Preparation: Imported into SQL and Power BI for analysis.
+## **Methodology & Tools**
+1.	Data Preparation: Imported into Power query for preprocessing and SQL for analysis.
 2. Measures & Calculations: Created DAX measures to calculate total transactions, fraud counts, non-fraud counts, fraud percentages, and total fraud amount.
-3.	Visualization: Developed charts to highlight fraud trends, proportions, and amount distributions using Power BI
+3.	Visualization: Developed charts to highlight fraud trends, proportions, and amount distributions using Power BI. Slicer was also used for user-friendly exploration.
 ## **Analysis and Key Findings**
 1.	Total Transactions: 284,807
 2.	Fraudulent Transactions: 492 (~0.172%)
@@ -28,3 +29,6 @@ The dataset was obtained from Kaggle’s Credit Card Fraud Detection Dataset, or
 7.  Collaborate with other financial institutions to share anonymized fraud trends.
 ## **Conclusion**
 The dataset reveals that while fraudulent transactions are rare, they represent a significant financial risk. Detecting them requires specialized analytics techniques, such as anomaly detection, due to the extreme class imbalance. The insights here provide a basis for building machine learning models and implementing targeted fraud prevention measures in real-world banking systems.
+
+## Author
+Adaeze Uzoezie
